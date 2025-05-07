@@ -1,0 +1,11 @@
+.header h1[aria-describedby='Título de citación principal'] {
+  padding: 1.875rem 0.9375rem;
+
+  display: flex;
+  flex-flow: column wrap;
+
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--color-white);
+}
+

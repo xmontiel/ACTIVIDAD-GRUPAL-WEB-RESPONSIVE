@@ -2,7 +2,7 @@
 @font-face {
   /* Set Typography */
   font-family: 'Sansation';
-  src: url(../assets/font/Sansation/Sansation-Light.ttf) format('woff');
+  src: url('../assets/font/Sansation/Sansation-Light.ttf') format('woff');
   font-weight: 400;
 }
 
@@ -127,7 +127,7 @@ body {
   font-family: var(--primary-font);
   color: var(--color-white);
 
-  background: linear-grkadient(rgba(255, 255, 255, 0.13)), url('../../public/fondo.jpg') no-repeat center/cover fixed;
+  background: linear-gradient(rgba(255, 255, 255, 0.1)), url('../../public/fondo.jpg') no-repeat center/cover fixed;
 }
 
 li {

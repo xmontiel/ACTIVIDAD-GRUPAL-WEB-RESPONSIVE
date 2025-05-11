@@ -1,4 +1,4 @@
-# Ejercicio 3 de LMS
+# Ejercicio Web Responsive de Lenguaje de Marcas
 
 ## Descripción
 

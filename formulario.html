@@ -25,19 +25,17 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="src/css/header.css" />
     <link rel="stylesheet" href="src/css/index.css" />
-    <link rel="stylesheet" href="src/css/nav.css">
+    <link rel="stylesheet" href="src/css/main.css" />
+    <link rel="stylesheet" href="src/css/nav.css" />
+    <link rel="stylesheet" href="src/css/aside.css" />
     <link rel="stylesheet" href="src/css/form.css" />
 
   </head>
-  <body>
+  <body class="wrapper">
     <!-- HEADER -->
     <header>
       <section class="header">
-        <img
-          width="130"
-          src="./src/assets/img/logo.png"
-          alt="Logo principal"
-          title="Logo principal" />
+        <img width="130" src="./src/assets/img/logo.png" alt="Logo principal" title="Logo principal" />
         <h1 aria-describedby="Título de citación principal">
           <span>UNIVERSIDAD</span>
           <span>&nbsp;INTERNACIONAL</span>
@@ -167,12 +165,30 @@
 
     <!-- ASIDE -->
     <aside>
-      <div class="aside"></div>
+      <div class="aside filter padding">
+        <h3>Enlaces</h3>
+        <div class="margin__top">
+          <h4>Docencia 100% online</h4>
+          <a>Nuestra metodología te permite estudiar sin desplazarte mediante un modelo de aprendizaje personalizado</a>
+        </div>
+
+        <div class="margin__top">
+          <h4>Clases en directo</h4>
+          <a>Nuestros profesores imparten 4.000 horas de clases online a la semana. Puedes asistir en directo o verlas en otro momento</a>
+        </div>
+
+        <div class="margin__top">
+          <h4>Mentor - UNIR</h4>
+          <a>En UNIR nunca estarás solo. Un mentor realizará un seguimiento individualizado y te ayudará en todo lo que necesites</a>
+        </div>
+      </div>
     </aside>
 
     <!-- FOOTER -->
     <footer>
-      <section class="footer"></section>
+      <section class="footer filter padding h_centered">
+        <a>UNIR &ndash; Universidad Internacional de La Rioja 2025&reg;</a>
+      </section>
     </footer>
 
     <script type="module" src="src/js/script.js"></script>

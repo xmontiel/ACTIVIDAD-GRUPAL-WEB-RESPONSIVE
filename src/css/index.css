@@ -127,7 +127,7 @@ body {
   font-family: var(--primary-font);
   color: var(--color-white);
 
-  background: linear-gradient(rgba(255, 255, 255, 0.13)), url('../../public/fondo.jpg') no-repeat center/cover fixed;
+  background: linear-grkadient(rgba(255, 255, 255, 0.13)), url('../../public/fondo.jpg') no-repeat center/cover fixed;
 }
 
 li {

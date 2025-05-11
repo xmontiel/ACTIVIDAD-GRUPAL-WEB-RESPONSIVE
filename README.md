@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este proyecto es un ejercicio de HTML y CSS relacionado con Breaking Bad.
+Este proyecto es un ejercicio de HTML y CSS relacionado con la página de la UNIR.
 
 ## Funcionalidades
 

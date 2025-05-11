@@ -56,7 +56,7 @@ area:-webkit-any-link {
 
 .wrapper {
   width: 88%;
-  max-width: 1216px;
+  max-width: 76rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -69,6 +69,18 @@ area:-webkit-any-link {
   -moz-border-radius: .625rem;
   -ms-border-radius: .625rem;
   -o-border-radius: .625rem;
+}
+
+.padding {
+  padding: 1.875rem 0.9375rem;
+}
+
+.margin {
+  margin: 1.875rem 0.9375rem;
+}
+
+.margin__top {
+  margin-top: 1.875rem;
 }
 
 .v_centered {
@@ -120,7 +132,7 @@ body {
     'main   main   main'
     'aside  aside  aside'
     'footer footer footer';
-  grid-template-rows: 336px 48px auto 80px 80px;
+  grid-template-rows: 21rem 3rem auto 5rem 5rem;
 
   font-size: 100%;
   background-color: var(--color-gray);
@@ -165,17 +177,6 @@ header {
   grid-area: header;
 }
 
-.main {
-  display: flex;
-}
-
-.header {
-  padding: 10px 15px;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-}
-
 nav {
   grid-area: nav;
 }
@@ -192,26 +193,39 @@ footer {
   grid-area: footer;
 }
 
+section[class="main filter padding"] article h3 {
+  padding-bottom: .625rem;
+}
+
+section[class="main filter padding"] article a {
+  font-size: medium;
+}
+
 /****************************************** PC ******************************************/
 @media (width >= 64rem) {
   body {
     grid-template-areas:
       'header header header'
       'nav    nav    nav'
-      'main   main   main'
+      'main   main   aside'
       'footer footer footer';
-    grid-template-rows: 240px 112px auto 80px;
-  }
-
-  aside {
-    display: none;
+    grid-template-rows: 15rem 7rem auto 5rem;
+    gap: 1.25rem;
   }
 
   .header h1[aria-describedby='Título de citación principal'] {
     flex-direction: row;
 
-    padding: 14px 15px;
+    padding: .875rem .9375rem;
 
-    font-size: 40px;
+    font-size: 2.5rem;
+  }
+
+  section[class="main filter padding"] article h3 {
+    padding-bottom: .9375rem;
+  }
+
+  section[class="main filter padding"] article a {
+    font-size: small;
   }
 }
